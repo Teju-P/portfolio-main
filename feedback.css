@@ -10,9 +10,9 @@ body{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin: 40px auto; /* Center align */
+    max-width: 500px;  /* Prevent it from being too wide */
+    width: 90%;  /* Adjusts width on small screens */
     box-shadow: 0 4px 8px rgb(233, 224, 224);
 }
 
