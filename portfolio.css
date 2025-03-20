@@ -9,7 +9,7 @@ body {
 header {
 text-align: center;
 padding: 10px;
-background-color: #f4f4f4;
+background-color: rgb(191, 191, 186);
 }
 
 header img {
@@ -25,6 +25,12 @@ header h1 {
 header p {
     font-size: 1.2em;
 }
+
+header p a{
+    margin: 5px;
+    padding: 10px;
+}
+
 section {
     margin: 20px auto;
     padding: 20px;

@@ -9,25 +9,28 @@
                 <h1>Feedback Survey Form</h1>
             </header>
             <main>
-                <p>Name: </p>
-                <input class="inp" type="text"><br>
-                <p>Email: </p>
-                <input class="inp" type="email"><br>
-                <p>Age</p>
-                <input class="inp" type="number"><br>
-                <p>Type of feedback</p>
-                <select class="inp" name="sel" id="sel">
-                    <option value="positive">Positive</option>
-                    <option value="neutral">Neutral</option>
-                    <option value="negative">Negative</option>
-                </select>
-                <p>Services used:</p>
-                <input class="check" type="checkbox">Service 1 <br>
-                <input class="check" type="checkbox">Service 2 <br>
-                <input class="check" type="checkbox">Service 3 <br>
-                <p>Additional comments:</p>
-                <textarea name="comments" id="comments"></textarea><br>
-                <button class="action_button">Submit feedback</button>
+                <form action="">
+                    <p>Name: </p>
+                    <input class="inp" type="text" required><br>
+                    <p>Email: </p>
+                    <input class="inp" type="email" required><br>
+                    <p>Age</p>
+                    <input class="inp" type="number" required><br>
+                    <p>Type of feedback</p>
+                    <select class="inp" name="sel" id="sel" required>
+                        <option value="positive">Positive</option>
+                        <option value="neutral">Neutral</option>
+                        <option value="negative">Negative</option>
+                    </select>
+                    <p>Services used:</p>
+                    <input class="check" type="checkbox">Service 1 <br>
+                    <input class="check" type="checkbox">Service 2 <br>
+                    <input class="check" type="checkbox">Service 3 <br>
+                    <p>Additional comments:</p>
+                    <textarea name="comments" id="comments"></textarea><br>
+                    <input type="submit" value="submit" class="action_button">
+                </form>
+                
             </main>
         </div>
     </body>

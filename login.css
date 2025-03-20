@@ -43,4 +43,9 @@ a{
     font-size: large;
     font-weight: bold;
     color:beige;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+.button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
