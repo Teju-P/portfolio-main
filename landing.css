@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-image: url(avengers.png);
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    margin: 20 px;
+    padding: 10px;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(MarvelRegular-Dj83.ttf);
+}
+
+.marvel{
+    text-align: center;
+    background-color: rgb(191, 11, 11);
+    opacity: 70%;
+    height: 100px;
+}
+
+header h1{
+    font-family: myFont;
+    font-size: 100px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 150px;
+    padding:10px;
+}
+
+header h3{
+    text-align: center;
+    color: #edf0e2;
+    background-color: black;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.action_button{
+    background-color: rgb(191, 11, 11);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 7px;
+    transition: background-color 0.2s;
+}
+
+.action_button:hover{
+    background-color:antiquewhite;
+    color: rgb(0, 0, 0);
+}
+
+.advertisement{
+    text-align: center;
+    background-color: rgb(191, 11, 11);
+    color: rgb(249, 249, 249);
+    margin: 5px;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    border-radius: 20px;
+    border-style:ridge;
+    box-shadow: 
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink {
+    animation: blinker 2s linear infinite;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.features{
+    display:flex ;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feature{
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    transition: transform 0.2s ease, box-shadow: 0.3 ease;
+}
+
+.feature:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(79, 79, 79);
+    /*0-hoffest 4-voffset 8-blurr*/
+}
+
+footer{
+    text-align: center;
+    position:fixed;
+    left: 0;
+    right: 10;
+    bottom: 0;
+    background-color: rgb(191, 11, 11);
+    padding: 5px;
+}

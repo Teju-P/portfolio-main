@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.parallax{
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 10px 15px rgb(46, 45, 45);
+}
+
+#par1{
+    background-image: url(space1.png);
+    background-size: cover;
+}
+
+#par2{
+    background-image: url(space2.png);
+    background-size: cover;
+}
+
+.content p{
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+}
+
+footer{
+    background-color: beige;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}

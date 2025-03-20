@@ -1,0 +1,152 @@
+body{
+    font-family: monospace;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.header_content{
+    background-color: rgb(151, 15, 15);
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(MarvelRegular-Dj83.ttf);
+}
+.header_content p{
+    font-family: myFont;
+    font-weight: bold;
+    font-size: 45px;
+    padding-left: 20px;
+    text-align: left;
+    flex-grow: 1;
+    transition: color 0.3s ease;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 30px;
+}
+
+.navbar ul li{
+    margin: 15px ;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.navbar ul li a:hover{
+    color: rgb(0, 0, 0);    
+}
+
+.container{
+    background-image: url(gaming.png);
+    background-size:contain;
+    background-position: center;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.main_center{
+    background-color: rgba(21, 18, 18, 0.54);
+    border-radius: 10px;
+    padding: 20px ;
+    height: 50%;
+    width: 20%;
+    align-items: center;
+    font-size: 18px;
+}
+
+.main_center button{
+    background-color: rgb(151, 15, 15);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid rgb(50, 2, 2);
+    transition: transform 0.2s ease;
+}
+.main_center button:hover{
+    transform: scale(1.05);
+}
+
+.services{
+    margin: 20px;
+    padding: 0;
+}
+
+.services p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.service_list ol{
+    font-size: 18px;
+    padding-left: 70px;
+    line-height: 1.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.323);  
+    padding-bottom: 20px;
+}
+
+.about{
+    margin: 20px;
+    padding: 0px;
+}
+
+.about h1{
+    font-size: 20px;
+    padding-bottom: 5px;
+    
+}
+
+.about p{
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.323);
+}
+
+.contact{
+    margin: 20px;
+    padding: 0px;
+}
+
+.contact h1{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.para   {
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.323);
+}
+
+footer{
+    background-color: rgb(151, 15, 15);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    width: 100%;
+}

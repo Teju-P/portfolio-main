@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(134, 61, 1, 0.819);
+    padding: 5px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(BodoniModaSC_9pt-Black.ttf);
+}
+header h1{
+    font-family: myFont;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.about{
+    background-color: rgb(235, 206, 169);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ingredients{
+    background-color: rgb(235, 206, 169);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.ingredients h2{
+    text-align: center;
+    color: rgb(134, 61, 1);     
+}
+
+.ingredients ul li{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.preparation{
+    background-color: rgb(235, 206, 169);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+    width:auto;
+}
+
+.preparation h2{
+    text-align: center;
+    color: rgb(134, 61, 1);  
+}
+
+.preparation ol li{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.ingpre{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;/*-*/
+}
+
+footer{
+    background-color: rgba(134, 61, 1, 0.819);
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}

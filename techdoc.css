@@ -1,0 +1,83 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 248, 238);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #35424a;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.container{
+    display: flex;
+}
+
+.navbar{
+    background-color: #35424a;
+    width: 15%;
+    text-align: left;
+    color: aliceblue;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 15px;
+    width: 89%;
+}
+
+.navbar ul li{
+    width: 89%;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    line-height: 1.5;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    color: aquamarine;
+    padding: 10px;
+}
+
+.main{
+    width: 100%;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+#home{
+    background-color: rgb(174, 152, 39);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#syntax{
+    background-color: rgb(203, 188, 111);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#var{
+    background-color: rgb(150, 135, 56);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#func{
+    background-color: rgb(236, 225, 169);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
