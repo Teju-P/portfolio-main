@@ -35,7 +35,7 @@ section {
     margin: 20px auto;
     padding: 20px;
     width: 90%;
-    background: #A7C7E7;
+    background: #59cdb2;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
@@ -80,5 +80,5 @@ select{
 footer {
     margin-top: 20px;
     padding: 10px;
-    background:#EED3D9;
+    background:#a6dd8d;
 }
