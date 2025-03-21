@@ -70,7 +70,9 @@ h2 {
 }
 
 select{
-    background-color: #2b83e1;
+    color: ivory;
+    font-weight: bold;
+    background-color: #5fbc9c;
     padding: 10px;
     border-radius: 15px;
 }
